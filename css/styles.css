@@ -20,6 +20,26 @@
 /**
  * Header CSS
 **/
+.top-header {
+    margin-top: 40px;
+}
+.search_div {
+    padding-left: 7px;
+    width: 267px;
+    height: 25px;
+    border-bottom: 2px solid #b6b6b8;
+}
+
+input.txtsearch {
+    font-family: "din-bold";
+    height: 22px;
+    width: 240px;
+    border: 0px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #6d6e71;
+    background: #fff;
+}
 
 .navbar .divider-vertical {
     height: 20px;
