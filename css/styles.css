@@ -20,6 +20,12 @@
 /**
  * Header CSS
 **/
+.stripe {
+  height: 10px;
+  color: white;
+  background: -webkit-repeating-linear-gradient(135deg, #d5ae5f, #d5ae5f 800px,  #fff 10px,  #bd2226, #bd2226 1000px);
+  background:   (135deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+}
 .top-header {
     margin-top: 40px;
 }
@@ -41,27 +47,22 @@ input.txtsearch {
     background: #fff;
 }
 
-.navbar .divider-vertical {
-    height: 20px;
-    border-right: 1px solid #ffffff;
-    border-left: 1px solid #868686;
-    top: 20px;
-}
+@media (min-width: 768px) {
+    .navbar .divider-vertical {
+        height: 20px;
+        border-right: 1px solid #ffffff;
+        border-left: 1px solid #868686;
+        top: 20px;
+    }
 
-.navbar .active {
-    height: 20px;
-    margin: 0 9px;
-    top: 20px;
-}
-
-.navbar-inverse .divider-vertical {
-    border-right-color: #222222;
-    border-left-color: #111111;
-}
-
-@media (max-width: 767px) {
-    .navbar-collapse .nav > .divider-vertical {
-        display: none;
+    .navbar .active {
+        height: 20px;
+        margin: 0 9px;
+        top: 20px;
+    }
+    .navbar-inverse .divider-vertical {
+        border-right-color: #222222;
+        border-left-color: #111111;
     }
 }
 
@@ -75,6 +76,7 @@ input.txtsearch {
 
 #site-header .navbar-default .navbar-collapse {
     border-color: #D9D9DE;
+    background: #fff;
 }
 
 #site-header .site-navbar {
