@@ -17,6 +17,11 @@
     font-family: "TheanoDidot-Regular";
     src: url(font/TheanoDidot-Regular.ttf);
 }
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 /**
  * Header CSS
 **/
@@ -519,6 +524,7 @@ input.txtsearch {
     font-size: 18px;
     color:#fff;
 }
+#career .career-button:hover, #career .career-button:focus{background: #ce0027;}
 
 #footer {
     padding-top: 40px;
@@ -714,4 +720,67 @@ input.txtsearch {
     background: #bb2527;
     padding: 10px 0;
     color: #FFF;
+}
+
+.contact-us {
+    margin-top: 50px;
+}
+
+.contact-us h1{
+    font-family: "TheanoDidot-Regular";
+    color: #6d6e71;
+    font-size: 36px;
+
+}
+
+.contact-us h2{
+    font-family: "TheanoDidot-Regular";
+    color: #6d6e71;
+    font-size: 24px;
+    margin-top: 0px;
+
+}
+
+.contact-us .lead{
+    font-family: "din-light";
+    font-size: 18px;
+    text-align: justify;
+}
+
+#googleMap {
+        width: 100%;
+        height:380px;
+        margin-bottom: 30px;
+      }
+.contact-us input {
+    font-family: "din-bold";
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+.contact-us textarea {
+    font-family: "din-bold";
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+.contact-us .btn-contact {
+    font-family: "din-light";
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #6d6e71;
+    background: #fff;
+    border: 0px solid #fff;
+}
+
+.contact-us .btn-contact .fa {
+    color: #bb2527;
 }
