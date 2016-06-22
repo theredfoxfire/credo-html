@@ -785,3 +785,38 @@ input.txtsearch {
 .contact-us .btn-contact .fa {
     color: #bb2527;
 }
+
+.csr .gallery{
+    margin-bottom: 50px;
+}
+
+.csr {
+    margin-bottom: 50px;
+}
+
+.csr .title{
+    font-family: "TheanoDidot-Regular";
+    color: #6d6e71;
+    font-size: 42px;
+}
+
+.csr .title::before {
+    content: "";
+    display: block;
+    background: url("../img/icon.png") no-repeat;
+    width: 53px;
+    height: 35px;
+    float: left;
+    margin: 6px 20px 0 0;
+}
+
+.csr h1{
+    font-family: "TheanoDidot-Regular";
+    font-weight: bold;
+    font-size: 36px;
+
+}
+.csr .lead{
+    font-family: "din-light";
+    font-size: 18px;
+}
