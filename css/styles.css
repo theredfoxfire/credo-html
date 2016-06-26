@@ -886,3 +886,164 @@ input.txtsearch {
     font-family: "din-light";
     font-size: 18px;
 }
+
+.news-media {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.news-media h1{
+    font-family: "TheanoDidot-Regular";
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.news-media .media-heading {
+    font-family: "din-light";
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.news-media .media-heading a {
+    color: #6d6e71;
+}
+
+.news-media .media-time {
+    font-size: 12px;
+}
+
+.news-media .media-author {
+    font-size: 12px;
+    font-style: italic;
+    padding-bottom: 7px;
+}
+
+.news-media .entry {
+    font-family: "din-light";
+    font-size: 16px;
+    color: #6d6e71;
+    padding-bottom: 7px;
+}
+
+.news-media .tool {
+    font-family: "din-light";
+    font-size: 12px;
+    font-style: italic;
+}
+
+.news-media .tool a {
+    color: #be1e2d;
+}
+
+.news-media .media-list li {
+    list-style: none;
+    border-top: 3px solid #E1E6E7;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.news-media .media-archive {
+    list-style: none;
+    border-top: 3px solid #E1E6E7;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.news-media .media-archive .year-label{
+    border-top: 1px solid #E1E6E7;
+    border-bottom: 1px solid #E1E6E7;
+}
+
+.news-media .pagination > .active > a, .news-media .pagination > .active > a:focus, .news-media .pagination > .active > a:hover, .news-media .pagination > .active > span, .news-media .pagination > .active > span:focus, .news-media .pagination > .active > span:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+
+
+.ac-label {
+  color: #808285;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  padding: .5em 1em;
+  margin-bottom: .5em;
+  display: block;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color .15s ease-in-out;
+}
+
+.ac-input:checked + label, .ac-label:hover {
+  font-weight: bold;
+}
+
+.ac-label:after, .ac-input:checked + .ac-label:after {
+  font-family: FontAwesome;
+  content:  "\f105";
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  width: 2em;
+  height: 100%;
+  line-height: 2.25em;
+  text-align: center;
+  background-color: #fff;
+  transition: background-color .15s ease-in-out;
+}
+
+.ac-label:hover:after, .ac-input:checked + .ac-label:after {
+  font-weight: bold;
+}
+
+.ac-input:checked + .ac-label:after {
+  font-family: FontAwesome;
+   content:  "\f107";
+}
+
+.ac-input {
+  display: none;
+}
+
+
+
+.ac-text, .ac-sub-text {
+  opacity: 0;
+  height: 0;
+  margin-bottom: .5em;
+  transition: opacity .5s ease-in-out;
+  overflow: hidden;
+}
+
+.ac-input:checked ~ .ac-text, .ac-sub .ac-input:checked ~ .ac-sub-text { 
+  opacity: 1;
+  height: auto;
+}
+
+
+
+.ac-sub .ac-label {
+  background: none;
+  font-weight: 400;
+  padding: .5em 2em;
+  margin-bottom: 0;
+}
+
+.ac-sub .ac-label:checked {
+  background: none;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.ac-sub .ac-label:after, .ac-sub .ac-input:checked + .ac-label:after {
+  left: 0;
+  background: none;
+}
+
+.ac-sub .ac-input:checked + label, .ac-sub .ac-label:hover {
+  background: none;
+}
+
+.ac-sub-text {
+  padding: 0 1em 0 2em;
+}
