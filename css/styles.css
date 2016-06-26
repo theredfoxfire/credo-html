@@ -854,3 +854,35 @@ input.txtsearch {
     font-family: "din-light";
     font-size: 18px;
 }
+
+.business-unit {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.business-unit .title{
+    font-family: "TheanoDidot-Regular";
+    color: #6d6e71;
+    font-size: 42px;
+}
+
+.business-unit .title::before {
+    content: "";
+    display: block;
+    background: url("../img/icon.png") no-repeat;
+    width: 53px;
+    height: 35px;
+    float: left;
+    margin: 6px 20px 0 0;
+}
+
+.business-unit h1{
+    font-family: "TheanoDidot-Regular";
+    font-weight: bold;
+    font-size: 36px;
+
+}
+.business-unit .lead{
+    font-family: "din-light";
+    font-size: 18px;
+}
