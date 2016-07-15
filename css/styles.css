@@ -32,8 +32,41 @@ body {
 .stripe {
     height: 10px;
     color: #fff;
-    background: -webkit-repeating-linear-gradient(135deg,#d5ae5f,#d5ae5f 800px,#fff 10px,#bd2226,#bd2226 1000px);
+    background: -webkit-repeating-linear-gradient(135deg,#d5ae5f,#d5ae5f 800px,#bd2226 10px,#bd2226,#bd2226 1000px);
     background: (135deg,#606dbc,#606dbc 10px,#465298 10px,#465298 20px);
+}
+
+.arrow-link {
+  color: #bd2226;
+}
+
+.web-link {
+  text-decoration: none !important;
+  color: #6d6e71;
+}
+@media (max-width: 600px) {
+  #business-unit-list.dropdown-menu{
+    padding-left: 20px;
+    min-width: 350px !important;
+  }
+}
+#business-unit-list.dropdown-menu a{
+  color: #868686 !important;
+  text-decoration: none !important;
+}
+#business-unit-list.dropdown-menu a:hover{
+  color: #bd2226 !important;
+}
+#business-unit-list.dropdown-menu{
+  min-width: 750px;
+  padding-left: 20px;
+  background: #ffffff;
+  float: right !important;
+  border-color: #ffffff;
+  font-family: "TheanoDidot-Regular";
+}
+.list-bu {
+  padding-top: 20px;
 }
 
 .top-header {
