@@ -32,8 +32,41 @@ body {
 .stripe {
     height: 10px;
     color: #fff;
-    background: -webkit-repeating-linear-gradient(135deg,#d5ae5f,#d5ae5f 800px,#fff 10px,#bd2226,#bd2226 1000px);
-    background: (135deg,#606dbc,#606dbc 10px,#465298 10px,#465298 20px);
+    background: -webkit-repeating-linear-gradient(135deg,#d5ae5f,#d5ae5f 80%,#bd2226 10px,#bd2226,#bd2226 1000px);
+}
+
+.arrow-link {
+  color: #bd2226;
+}
+
+.web-link {
+  text-decoration: none !important;
+  color: #6d6e71;
+}
+@media (max-width: 600px) {
+  #business-unit-list.dropdown-menu{
+    padding-left: 20px;
+    min-width: 350px !important;
+  }
+}
+#business-unit-list.dropdown-menu a{
+  color: #868686 !important;
+  text-decoration: none !important;
+}
+#business-unit-list.dropdown-menu a:hover{
+  color: #bd2226 !important;
+}
+#business-unit-list.dropdown-menu{
+  min-width: 750px;
+  padding-left: 20px;
+  background: #ffffff;
+  float: right !important;
+  border-color: #ffffff;
+  font-family: "TheanoDidot-Regular";
+  font-size: 11px !important;
+}
+.list-bu {
+  padding-top: 20px;
 }
 
 .top-header {
@@ -105,7 +138,7 @@ input.txtsearch {
 
 #site-header .site-navbar .navbar-nav > li > a {
     font-family: "TheanoDidot-Regular";
-    font-size: 14px;
+    font-size: 11px;
     padding: 0 12px;
     color: #868686;
     display: inline-block;
@@ -892,11 +925,15 @@ input.txtsearch {
 .about-us .title::before {
     content: "";
     display: block;
-    background: url(../img/icon.png) no-repeat;
     width: 53px;
     height: 35px;
     float: left;
     margin: 6px 20px 0 0;
+}
+
+.page-title {
+  margin-top: -6px !important;
+  font-size: 32px;
 }
 
 .about-us h1 {
