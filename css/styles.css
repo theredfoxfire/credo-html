@@ -108,9 +108,9 @@ body {
 }
 
 input.txtsearch {
-    font-family: "din-bold";
+    font-family: "TheanoDidot-Regular";
     border: 0;
-    font-size: 13px;
+    font-size: 11px;
     letter-spacing: 1px;
     color: #6d6e71;
     background: #fff;
@@ -121,7 +121,11 @@ input.txtsearch {
     background-color: #fff;
     border-color: #fff;
 }
-
+@media (max-width: 800px) {
+  h1 {
+    font-size: 16px !important;
+  }
+}
 @media (min-width: 768px) {
     .navbar .divider-vertical {
         height: 20px;
@@ -323,12 +327,12 @@ input.txtsearch {
 
 #business-units h1 {
     font-family: "TheanoDidot-Regular";
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #business-units .lead {
     font-family: "din-light";
-    font-size: 16px;
+    font-size: 12px;
 }
 
 #owl-demo .item {
@@ -429,8 +433,8 @@ input.txtsearch {
 #owl-demo .owl-item > div {
     background: #fff;
     text-align: center;
-    padding: 50px 0;
-    margin: 3px;
+    padding: 0;
+    margin: 0;
     color: #fff;
     font-size: 32px;
     border: 1px #fff;
@@ -467,7 +471,7 @@ input.txtsearch {
 
 #vision .heading a {
     font-family: "TheanoDidot-Regular";
-    font-size: 16px;
+    font-size: 12px;
     color: #be1e2d;
 }
 
@@ -479,13 +483,13 @@ input.txtsearch {
 
 #vision .lead {
     font-family: "din-light";
-    font-size: 16px;
+    font-size: 12px;
 }
 
 #vision .readmore {
     font-family: "din-light";
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 11px;
+
 }
 
 #vision .readmore a {
@@ -503,18 +507,18 @@ input.txtsearch {
 
 #about-us h1 {
     font-family: "TheanoDidot-Regular";
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #about-us .lead {
     font-family: "din-light";
-    font-size: 16px;
+    font-size: 12px;
 }
 
 #about-us .readmore {
     font-family: "din-light";
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 11px;
+
 }
 
 #about-us .readmore a {
@@ -536,7 +540,7 @@ input.txtsearch {
 #news .media-body .media-heading {
     font-family: "din-light";
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 #news .media-body p {
@@ -547,19 +551,19 @@ input.txtsearch {
 
 #news h1 {
     font-family: "TheanoDidot-Regular";
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #news .lead {
     font-family: "din-light";
-    font-size: 16px;
+    font-size: 12px;
 }
 
 #news .readmore {
     margin-top: 40px;
     font-family: "din-light";
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 11px;
+
     text-align: center;
 }
 
@@ -614,7 +618,7 @@ input.txtsearch {
 
 #career h1 {
     font-family: "TheanoDidot-Regular";
-    font-size: 22px;
+    font-size: 20px;
     color: #fff;
     padding-top: 130px;
     padding-bottom: 40px;
@@ -855,7 +859,7 @@ input.txtsearch {
 .contact-us h1 {
     font-family: "TheanoDidot-Regular";
     color: #6d6e71;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .contact-us h2 {
@@ -867,7 +871,7 @@ input.txtsearch {
 
 .contact-us .lead {
     font-family: "din-light";
-    font-size: 16px;
+    font-size: 12px;
     text-align: justify;
 }
 
@@ -936,12 +940,12 @@ input.txtsearch {
 
 .csr h1 {
     font-family: "TheanoDidot-Regular";
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .csr .lead {
     font-family: "din-light";
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .about-us {
@@ -971,12 +975,12 @@ input.txtsearch {
 
 .about-us h1 {
     font-family: "TheanoDidot-Regular";
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .about-us .lead {
     font-family: "din-light";
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .business-unit {
@@ -1002,12 +1006,12 @@ input.txtsearch {
 
 .business-unit h1 {
     font-family: "TheanoDidot-Regular";
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .business-unit .lead {
     font-family: "din-light";
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .news-media {
@@ -1017,13 +1021,13 @@ input.txtsearch {
 
 .news-media h1 {
     font-family: "TheanoDidot-Regular";
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .news-media .media-heading {
     font-family: "din-light";
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .news-media .media-heading a {
@@ -1042,7 +1046,7 @@ input.txtsearch {
 
 .news-media .entry {
     font-family: "din-light";
-    font-size: 16px;
+    font-size: 12px;
     color: #6d6e71;
     padding-bottom: 7px;
 }
@@ -1083,7 +1087,7 @@ input.txtsearch {
 
 .ac-label {
     color: #808285;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     position: relative;
     padding: .5em 1em;
@@ -1171,7 +1175,7 @@ input.txtsearch {
 
 .people h1 {
     font-family: "TheanoDidot-Regular";
-    font-size: 22px;
+    font-size: 20px;
     color: #6d6e71;
 }
 
@@ -1185,7 +1189,7 @@ input.txtsearch {
 
 .people .lead {
     font-family: "din-light";
-    font-size: 16px;
+    font-size: 12px;
     color: #6d6e71;
 }
 
@@ -1203,14 +1207,14 @@ h6.description {
 
 .profile h1 {
     font-family: "din-light";
-    font-size: 22px;
+    font-size: 20px;
     margin: 10px 0 0;
     text-align: center;
 }
 
 .profile h2 {
     font-family: "din-light";
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     margin-top: 5px;
     text-align: center;
