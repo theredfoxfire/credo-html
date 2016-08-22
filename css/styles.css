@@ -434,7 +434,7 @@ input.txtsearch {
     background: #fff;
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: -50;
     color: #fff;
     font-size: 32px;
     border: 1px #fff;
@@ -450,12 +450,12 @@ input.txtsearch {
 
 .owl-theme .owl-controls .owl-buttons .owl-prev {
     left: -45px;
-    top: 115px;
+    top: 105px;
 }
 
 .owl-theme .owl-controls .owl-buttons .owl-next {
     right: -45px;
-    top: 115px;
+    top: 105px;
 }
 
 #vision {
