@@ -122,8 +122,34 @@ input.txtsearch {
     border-color: #fff;
 }
 @media (max-width: 800px) {
+  .judith {
+    margin-left: 0px !important;
+  }
   h1 {
     font-size: 16px !important;
+  }
+  .logo-list {
+    height: 120px !important;
+  }
+  .h1, .h2, .h3, h1, h2, h3 {
+      margin-top: 0px !important;
+      margin-bottom: 5px !important;
+  }
+
+  hr {
+      margin-top: 10px !important;
+      margin-bottom: 5px !important;
+      border: 0;
+      border-top: 1px solid #eee;
+  }
+
+  #news .readmore {
+      margin-top: 0px !important;
+      margin-bottom: 25px !important;
+      font-family: "din-light";
+      font-size: 11px;
+
+      text-align: center;
   }
 }
 @media (min-width: 768px) {
@@ -168,7 +194,7 @@ input.txtsearch {
     box-shadow: 0 10px 6px -6px #777;
 }
 .logo-list {
-  height: 200px !important;
+  height: 200px;
 }
 
 .img-slider {
@@ -439,9 +465,16 @@ input.txtsearch {
     font-size: 32px;
     border: 1px #fff;
 }
-
+.quotes {
+  font-size: 14px !important;
+  font-family: "TheanoDidot-Regular";
+}
 .wrapper-with-margin {
     margin: 0 50px;
+}
+
+h4 {
+  font-family: "TheanoDidot-Regular";
 }
 
 .owl-theme .owl-controls .owl-buttons div {
@@ -967,10 +1000,13 @@ input.txtsearch {
     float: left;
     margin: 6px 20px 0 0;
 }
-
+.judith {
+  margin-left: 450px;
+}
 .page-title {
   margin-top: -6px !important;
-  font-size: 32px;
+  font-family: "TheanoDidot-Regular";
+  font-size: 18px;
 }
 
 .about-us h1 {
