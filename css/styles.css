@@ -151,6 +151,9 @@ input.txtsearch {
 
       text-align: center;
   }
+  .carousel-inner {
+    height: auto !important;
+  }
 }
 @media (min-width: 768px) {
     .navbar .divider-vertical {
@@ -179,7 +182,9 @@ input.txtsearch {
     border-color: #D9D9DE;
     background: #fff;
 }
-
+.carousel-inner {
+  height: 500px;
+}
 #site-header .site-navbar {
     height: 60px;
     background-color: #FFF;
@@ -199,6 +204,7 @@ input.txtsearch {
 
 .img-slider {
   margin: 0 auto;
+  margin-top: -15%;
 }
 .carousel-control.left {
   background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.5) 100%) !important;
